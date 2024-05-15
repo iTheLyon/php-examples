@@ -10,7 +10,20 @@ function mostrarDatos($nombres,$apellidos,$curso,$semestre) {
     return $mensaje;
 }
 
+function calcular($operador,$numero1,$numero2) {
+    if($operador=="+")
+        return $numero1+$numero2;
+    if($operador=="-")
+        return $numero1-$numero2;
+    if($operador=="*")
+        return $numero1*$numero2;
+    if($operador=="/")
+        return $numero1/$numero2;
+}
+
  echo obtenerSaludo("nicky")."\n";
  echo mostrarDatos("nicky","enriquez",
- "backend developer web","tercer semestre");
+ "backend developer web","tercer semestre")."\n";
+ echo "El total de la suma es : ".calcular("+",10,34);
+
 ?>
