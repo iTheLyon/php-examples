@@ -71,4 +71,12 @@ for($i=0 ;$i<=count($estudiantes)-1;$i++) {
     echo "notafinal - ".$estudiantes[$i]["notafinal"]."\n";
 }
 
+$estudiante3["notafinal"] = 17.6;
+
+$equipo1 = ["messi","cueva","neymar"];
+$equipo2 = ["advincula","lewandoski","ronaldhino"];
+$equipos = array_merge($equipo1,$equipo2);
+foreach($equipos as $key=>$equipo) {
+    echo $equipo."\n";
+}
 ?>
