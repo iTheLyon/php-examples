@@ -1,6 +1,6 @@
 <?php
 
-$nombres ="nicky salomon";
+$nombres ="nicky salomon.";
 $apellidos="enriquez torres";
 $curso="BACKEND DEVELOPER WEB";
 $semestre="TERCER SEMESTRE";

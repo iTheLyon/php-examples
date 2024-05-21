@@ -1,5 +1,5 @@
 <?php
-//caso 1
+//caso 1.
 $numeros = array(1,3,5,2,6);
 $frutas = ["fresa","naranja","manzana","mandarina"];
 print_r($numeros);
