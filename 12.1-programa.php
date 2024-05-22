@@ -2,7 +2,7 @@
     include("12-clase.php");
 
     echo "******* BIENVENIDO A MI CALCULADORA *********\n";
-    echo "******* MENU DE OPCIONES *********\n";
+    echo "******* MENÚ DE OPCIONES *********\n";
     echo "******* SUMAR (OPCION 1) *********\n";
     echo "******* RESTAR (OPCION 2) *********\n";
     echo "******* MULTIPLICAR (OPCION 3) *********\n";
