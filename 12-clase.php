@@ -30,8 +30,8 @@
         }
 
         public function potencia() {
-            echo "primerNumero:".$this->primerNumero."\n";
-            echo "segundoNumero:".$this->segundoNumero."\n";
+            // echo "primerNumero:".$this->primerNumero."\n";
+            // echo "segundoNumero:".$this->segundoNumero."\n";
             return pow($this->primerNumero,$this->segundoNumero);
         }
 
