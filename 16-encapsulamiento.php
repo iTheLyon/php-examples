@@ -3,7 +3,7 @@
         public $nombre;
         public $categoria;
         private $modelos;
-        private $tieneCuerdas=true;
+        private $tieneCuerdas=false;
 
         public function __construct($_nombre,$_categoria) {
             $this->nombre = $_nombre;
