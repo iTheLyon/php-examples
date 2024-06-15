@@ -8,11 +8,19 @@ class Control
     return new $model;
   }
 
-  public function load_view($view, $datos = [])
+  public function load_view($view, $datos = [],$retorno =false)
   {
     if(file_exists('../app/views/pages/' . $view . '.php'))
     {
-      require_once '../app/views/pages/' . $view . '.php';
+      if($retorno == false)
+        require_once '../app/views/pages/' . $view . '.php';
+      else {
+        ob_start();
+        extract($datos);
+        require '../app/views/pages/' . $view . '.php';
+        $output = ob_get_clean();
+        return $output;
+      }
     }
     else
     {
